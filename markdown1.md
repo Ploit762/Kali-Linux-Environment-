@@ -12,7 +12,7 @@ Quick way to use Kali commands to change you username on your kali linux.
     * `usermod -l [new username] -d /home/[new username] -m [old username]`
 * If you get a message like "usermod: user ___ is currently used by process ___" , then you would want to take that number after the word "process" and enter in this command..
     * `kill -9 [number after process]` - This number that you are entering is the process id. 
-* To then stop the process of the old username, or "kill" it the process, you will then want to type this command..
+* To then stop the process of the old username, or "kill" the process, you will then want to type this command..
     * `pkill -u [old username]`
 * After this, use the same command that was used from above when you logged into the root account..
     * `usermod -l [new username] -d /home/[new username] -m [old username]`
